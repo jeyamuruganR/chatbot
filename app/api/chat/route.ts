@@ -18,7 +18,7 @@
   const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
   // -------- Google AI SDK --------
-  const embeddingModel = google.embedding('text-embedding-004');  
+  const embeddingModel = google.embedding('gemini-embedding-001');  
   console.log("Google API Key:", process.env.GOOGLE_GENERATIVE_AI_API_KEY);
 
 
